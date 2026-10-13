@@ -5,7 +5,7 @@ pipeline {
         REGISTRY = 'https://index.docker.io/v1/'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
         PATH = "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-        DOCKER_HOST = "unix:///var/run/docker.sock"
+        DOCKER_HOST = "C:\Program Files\Docker\Docker\resources\bin\docker"
     }
     stages {
         stage('Checkout') {
